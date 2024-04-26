@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    /* color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 3% 5%;
+}
+
+.navbar-brand {
+    width: 150px;
+    height: 100%;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.sign-in {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 25px;
+    /* font-weight: 500; */
+    /* border-radius: 5px; */
+}
+
+.navbar-nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    width: 100%;
+    width: 1350px;
+    height: 280px;
+    margin-top: 100px;
+    background-color: white;
+    color: gray;
+}
+
+.footer-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.footer-sub a {
+    /* text-decoration: none; */
+    color: gray;
+}
+
+.footer-main {
+    top: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.footer-main p {
+    margin-bottom: 35px;
+}
+
+.sub1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.list-group-item {
+    margin: 0;
+}
+
+.sub3 button {
+    font-size: 20px;
+    border: 1px solid #dc030f;
+    background-color: #dc030f;
+    padding: 20px 180px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+.sub2 {
+    font-size: 12px;
+}
+
+.main {
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 107px;
+    transition: box-shadow 100ms ease-in-out 0s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 13px -3px;
+    border: 0px;
+    padding: 13px;
+    color: white;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(250, 18, 30) 0%, rgba(65, 10, 196, 0.5) 73.57%, rgba(73, 31, 172, 0) 100%), rgb(29, 82, 157);
+}
+
+.main2 {
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 107px;
+    transition: box-shadow 100ms ease-in-out 0s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 13px -3px;
+    border: 0px;
+    padding: 13px;
+    color: white;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(43, 1, 58) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+
+.main3 {
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 107px;
+    transition: box-shadow 100ms ease-in-out 0s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 13px -3px;
+    border: 0px;
+    padding: 13px;
+    color: white;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(35, 2, 48) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+
+.main4 {
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 107px;
+    transition: box-shadow 100ms ease-in-out 0s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 13px -3px;
+    border: 0px;
+    padding: 13px;
+    color: white;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(176, 56, 220) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}

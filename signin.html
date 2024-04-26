@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Netflix India</title>
+    Bootstrap CSS
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="signin.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand-logo">
+        </div>
+    </nav>
+    <div class="main">
+        
+    </nav>
+        <div class="container">
+            <h1 class="sub-container-1">Sign In</h1>
+            <form>
+                <div class="sub-container-2">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <div class="sub-container-2">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <button onclick="submitForm()" type="submit" class="sub-container-3">Sign In</button>
+                    <h4>Forgot Password?</h4>
+                    <input type="checkbox" id="box">
+                    <label for="box"><strong> Remember me</strong></label>
+                    <div class="sign">
+                        <span>New to Netflix?</span><a href="#"><strong>Sign Up</strong></a>
+                    </div>
+                    <p>
+                        This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="">Learn more.</a>
+                    </p>
+
+                    <p>The information collected by Google reCAPTCHA is subject to the <a
+                            href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> and <a
+                            href="https://policies.google.com/terms" target="_blank">Terms of Service</a>, and is used
+                        for providing, maintaining, and improving the reCAPTCHA service and for general security
+                        purposes (it is not used for personalised advertising by Google).</p>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+                <p>Questions? Call 000-800-919-1694</p>
+                <div class="footer-sub">
+                    <p><a href="#">FAQ</p></a>
+                    <p><a href="#">Help Centre</p></a>
+                    <p><a href="#">Terms of Use</p></a>
+                    <p><a href="#">Privacy</p></a>
+                    <p><a href="#">Cookie Preferences</p></a>
+                    <p><a href="#">Corporate Information</p></a>
+                </div>
+            </div>
+            <div class="navbar-nav-items">
+                <div class="nav-item">
+                    <div class="dropdown-container">
+                        <i class="fas fa-globe"></i>
+                        <select name="languages" class="language-dropdown">
+                            <option value="english">English</option>
+                            <option value="french">French</option>
+                            <option value="japanese">Japanese</option>
+                        </select>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>

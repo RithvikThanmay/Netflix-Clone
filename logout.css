@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    background-image: url("https://i0.wp.com/marvelll.fr/wp-content/uploads/2016/11/the-crown-saison-1-banniere.jpg?resize=1600%2C700&ssl=1");
+    background-repeat: no-repeat;
+    background-color:black ;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 3% 5%;
+}
+
+.navbar-brand {
+    width: 150px;
+    height: 100%;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.language-dropdown {
+    border: none;
+    color: black;
+    background: transparent;
+}
+
+.dropdown-container {
+    border: 1px solid white;
+    padding: 10px 5px;
+    border-radius: 4px;
+    background-color: rgb(121, 116, 116);
+}
+
+.sign-in {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.navbar-nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    /* width: 80%; */
+    width: 1350px;
+    height: 280px;
+    margin-top: 50px;
+    /* background-color: white; */
+    color: white;
+}
+
+.footer-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.footer-sub a {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.footer-main {
+    top: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.footer-main p {
+    margin-bottom: 35px;
+}
+
+.content {
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    margin-left: 35%;
+}
+
+.content button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    /* background-color:navy */
+}

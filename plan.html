@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan</title>
+    <link rel="stylesheet" href="plan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand-logo">
+            </div>
+
+            <div class="nav-item">
+                <button onclick="redirectToSignout()" class="sign-in"><strong>Sign Out</strong></button>
+            </div>
+    </div>
+    </nav>
+    <div class="sub">
+        <div class="icon">
+            <i class="ri-checkbox-circle-line"></i>
+            <p>STEP 1 OF 3</p>
+        </div>
+        <div class="sub1">
+            <h2>Choose your plan.</h2>
+            <p><i class="ri-check-line"></i>No commitments, cancel anytime.</p>
+            <p><i class="ri-check-line"></i>Everything on Netflix for one low price.</p>
+            <p><i class="ri-check-line"></i>No ads and no extra fees. Ever.</p>
+            <button onclick="next()">Next</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-main">
+            <p>Questions? Call 000-800-919-1694</p>
+            <div class="footer-sub">
+                <p><a href="#">FAQ</p></a>
+                <p><a href="#">Help Centre</p></a>
+                <p><a href="#">Terms of Use</p></a>
+                <p><a href="#">Privacy</p></a>
+                <p><a href="#">Cookie Preferences</p></a>
+                <p><a href="#">Corporate Information</p></a>
+            </div>
+        </div>
+        <div class="navbar-nav-items">
+            <div class="nav-item">
+                <div class="dropdown-container">
+                    <i class="fas fa-globe"></i>
+                    <select name="languages" class="language-dropdown">
+                        <option value="english">English</option>
+                        <option value="french">French</option>
+                        <option value="japanese">Japanese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

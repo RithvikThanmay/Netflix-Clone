@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    /* color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 3% 5%;
+}
+
+.navbar-brand {
+    width: 150px;
+    height: 100%;
+}
+
+.brand-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.language-dropdown {
+    border: none;
+    color: black;
+    background: transparent;
+}
+
+.dropdown-container {
+    border: 1px solid white;
+    padding: 10px 5px;
+    border-radius: 4px;
+    background-color: rgb(121, 116, 116);
+}
+
+.sign-in {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 25px;
+    /* font-weight: 500; */
+    /* border-radius: 5px; */
+}
+
+.navbar-nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+.sub {
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+.sub i {
+    color: #dc030f;
+    font-size: 50px;
+    /* padding: 30px; */
+}
+
+.icon p{
+    margin-top: 18px;
+
+}
+
+.icon {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    right: 250px;
+}
+
+.sub1 h2 {
+    text-align: center;
+    position: relative;
+    right: 250px;
+    font-size: 30px;
+}
+
+.sub p{
+    margin: 10px 0px;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+
+.sub1 button{
+    font-size: 20px;
+    border: 1px solid #dc030f;
+    background-color: #dc030f;
+    padding: 20px 180px;
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.footer{
+    width: 100%;
+    width: 1350px;
+    height: 280px;
+    margin-top: 100px;
+    background-color: white;
+    color: gray;
+}
+
+.footer-sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.footer-sub a{
+    /* text-decoration: none; */
+    color: gray;
+}
+
+.footer-main{
+    top: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.footer-main p{
+    margin-bottom: 35px;
+}
